@@ -1,0 +1,169 @@
+{
+  "accuracy": 1.0,
+  "per_question_type_accuracy": {
+    "yes_no": 1.0,
+    "abnormality": 1.0
+  },
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      20
+    ]
+  ],
+  "classification_report": {
+    "normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "pneumonia": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "fracture": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "yes": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "no": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    }
+  },
+  "classes": [
+    "normal",
+    "pneumonia",
+    "fracture",
+    "yes",
+    "no"
+  ],
+  "qualitative_examples": [
+    {
+      "image": "test/normal_0.jpg",
+      "question": "What abnormality is visible?",
+      "expected": "normal",
+      "predicted": "normal",
+      "correct": true
+    },
+    {
+      "image": "test/normal_0.jpg",
+      "question": "Is this image normal?",
+      "expected": "yes",
+      "predicted": "yes",
+      "correct": true
+    },
+    {
+      "image": "test/normal_1.jpg",
+      "question": "What abnormality is visible?",
+      "expected": "normal",
+      "predicted": "normal",
+      "correct": true
+    },
+    {
+      "image": "test/normal_1.jpg",
+      "question": "Is this image normal?",
+      "expected": "yes",
+      "predicted": "yes",
+      "correct": true
+    },
+    {
+      "image": "test/normal_2.jpg",
+      "question": "What abnormality is visible?",
+      "expected": "normal",
+      "predicted": "normal",
+      "correct": true
+    },
+    {
+      "image": "test/normal_2.jpg",
+      "question": "Is this image normal?",
+      "expected": "yes",
+      "predicted": "yes",
+      "correct": true
+    },
+    {
+      "image": "test/normal_3.jpg",
+      "question": "What abnormality is visible?",
+      "expected": "normal",
+      "predicted": "normal",
+      "correct": true
+    },
+    {
+      "image": "test/normal_3.jpg",
+      "question": "Is this image normal?",
+      "expected": "yes",
+      "predicted": "yes",
+      "correct": true
+    },
+    {
+      "image": "test/normal_4.jpg",
+      "question": "What abnormality is visible?",
+      "expected": "normal",
+      "predicted": "normal",
+      "correct": true
+    },
+    {
+      "image": "test/normal_4.jpg",
+      "question": "Is this image normal?",
+      "expected": "yes",
+      "predicted": "yes",
+      "correct": true
+    }
+  ],
+  "n_test": 60
+}
